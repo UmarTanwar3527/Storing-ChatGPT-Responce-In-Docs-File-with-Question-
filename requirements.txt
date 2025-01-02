@@ -1,0 +1,15 @@
+# Dev environment
+pip
+autopep8
+
+# App
+flask
+openai
+# pip install openai==0.28
+python-docx
+os-sys
+TIME-python
+docx
+shared
+typing
+python-csv

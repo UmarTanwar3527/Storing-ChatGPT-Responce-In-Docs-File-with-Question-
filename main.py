@@ -21,7 +21,7 @@ class ChatGPTQuestionAutomation:
         :param api_key: OpenAI API key
         :param model: OpenAI model to use (defaults to latest GPT-4 Turbo)
         """
-        openai.api_key = 'YOUR API KEY'
+        openai.api_key = 'ENTERYOUR API KEY'
         self.model = model
         
         # Validate model selection
@@ -159,7 +159,7 @@ class ChatGPTQuestionAutomation:
 
 def main():
     # Your API key should be in quotes as it's a string
-    API_KEY = "YOUR API KEY"
+    API_KEY = "ENTER YOUR API KEY"
     
     # Path to your questions CSV file
     QUESTIONS_FILE = 'questions.csv'

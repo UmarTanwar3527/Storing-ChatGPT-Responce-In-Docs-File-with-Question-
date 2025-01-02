@@ -21,7 +21,7 @@ class ChatGPTQuestionAutomation:
         :param api_key: OpenAI API key
         :param model: OpenAI model to use (defaults to latest GPT-4 Turbo)
         """
-        openai.api_key = 'ENTERYOUR API KEY'
+        openai.api_key = 'ENTER YOUR API KEY'
         self.model = model
         
         # Validate model selection
